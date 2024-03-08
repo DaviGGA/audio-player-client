@@ -1,0 +1,31 @@
+.music-control {
+  height: 8rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+}
+
+.button-play {
+  background-color: #fff;
+  border-radius: 100%;
+  width: 3rem;
+  height: 3rem;
+  position: relative;
+  margin: 1rem 0;
+}
+
+.button-play:hover {
+  background-color: #dddcdc;
+  transition: .5s;
+}
+
+.play-symbol {
+  color: #111;
+  position: absolute;
+  top: 21%;
+  left: 25%;
+  font-size: 1.75rem;
+}

@@ -1,0 +1,15 @@
+.music {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.music-title {
+  font-size: 2.75rem;
+  font-weight: bold;
+}
+
+.music-data {
+  color: rgba(255, 255, 255, .5);
+}
+
